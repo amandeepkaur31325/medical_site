@@ -15,7 +15,41 @@
 <body>
   <div class="full-screen-preview">
     <div class=" container">
-      <div class="elementor-top- section">
+      <nav class=" topBar" >
+     <div class="mainTopBar">
+      <div class="logo">
+        <img class="logo-image" src="./images/logo-medicalife (1).png">
+      </div>
+    <div class="navList">
+      <ul class="navbar-nav mr-auto" id="Navlist">
+        <li class="nav-item active">
+          <div class="elementor-iconbox">
+            <div class="icon"><i class="bi bi-envelope-paper"></i></div>
+            <div class="elementor-iconbox-icon">
+              <div class="iconbox-contant">Mail us</div>
+              <span class="gray">Info@domain.com</span>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="elementor-iconbox">
+            <div class="icon"><i class="bi bi-envelope-paper"></i></div>
+            <div class="elementor-iconbox-icon">
+              <div class="iconbox-contant">Mail us</div>
+              <span class="gray">Info@domain.com</span>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+        <div class="appoinmentBtn">
+          <button type="button" class="btn btn-secondary">Make Appointment</button>
+        </div>
+        </li>
+      </ul>
+    </div>
+     </div> 
+      </nav>
+      <!-- <div class="elementor-top- section">
         <div class="main-title">
           <img class="logo-image" src="./images/logo-medicalife (1).png">
           <div class="elementor-gap">
@@ -40,7 +74,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="nav-section">
         <div class="list-elementor">
@@ -55,34 +89,42 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"
+                    <a class="nav-link" id="navTab active" aria-current="page"
                       href="https://preview.themeforest.net/item/medicalife-health-care-medical-elementor-template-kit/full_screen_preview/33340582?_ga=2.29631802.484506166.1656304181-1695331771.1651207061">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://kit.baliniz.com/medicalife/about-us/">ABOUT US</a>
+                    <a class="nav-link" id="nav-style" href="https://kit.baliniz.com/medicalife/about-us/">ABOUT US</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://kit.baliniz.com/medicalife/services/">SERVICES</a>
+                    <a class="nav-link" id="nav-style" href="https://kit.baliniz.com/medicalife/services/">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://kit.baliniz.com/medicalife/appointment/">APPOINTMENT</a>
+                    <a class="nav-link" id="nav-style" href="https://kit.baliniz.com/medicalife/appointment/">APPOINTMENT</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  <li class=" dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-style" class="dropbtn" href="#" id="navbarDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
                       PAGES
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-content" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#">OUR DOCTOR</a></li>
                       <li><a class="dropdown-item" href="#">HELP & FAQ</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
                       <li><a class="dropdown-item" href="#">404 PAGE</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  <li class=" dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-style" class="dropbtn" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      BLOG
+                    </a>
+                    <ul class="dropdown-content" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">BLOG</a></li>
+                      <li><a class="dropdown-item" href="#">SINGLE BLOG</a></li>
+                      <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+                    </ul>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="nav-style" href="#" id="navbarDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
                       BLOG
                     </a>
@@ -92,11 +134,11 @@
                       <li>
                         <hr class="dropdown-divider">
                       </li>
-                      <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+                      <li><a class="dropdown-item"  href="#">404 PAGE</a></li>
                     </ul>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
-                    <a class="nav-link" href="https://kit.baliniz.com/medicalife/contact/">CONTACT</a>
+                    <a class="nav-link" id="nav-style"  href="https://kit.baliniz.com/medicalife/contact/">CONTACT</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -117,6 +159,7 @@
       <div class="elementor-background-image">
         <div class="element-overlay">
           <div class="container">
+
             <div class="elementor-bghealth-overly-image">
               <div class="bghealth-contant">
                 <h1 class="heading-title">
@@ -126,8 +169,17 @@
                   tempor incididunt ut labore et dolore magna aliqua.</div>
                 <button type="button" class="btn btn-warning">Contact us</button>
               </div>
-              <i class="bi bi-play-circle-fill"></i>
+
+              <div class="seachingIcon">
+                <span class="circle-icon">
+                  <i class="bi bi-play-circle-fill"></i>
+                </span>
+              </div>
+              
+              
             </div>
+
+
           </div>
         </div>
       </div>
@@ -135,45 +187,54 @@
     <div class="container">
       <div class="annimations-sections">
         <div class="displyflex-section">
-          <div class="box-contant">
-            <div class="iconbox-element">
-              <img class="iconbox-image" src="./images/doctor-icon.png">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 nopadding">
+              <div class="box-contant">
+                <div class="iconbox-element">
+                  <img class="iconbox-image" src="./images/doctor-icon.png">
+                </div>
+                <div class="box-header-contant">Doctors Timetable</div>
+                <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et dolore magna</div>
+                <div class="read-element">
+                  <div class="viewbtn">View Timetable</div>
+                  <i class="bi bi-arrow-right-short"></i>
+                </div>
+                <div class="iconmain-box-element">
+                  <i class="bi bi-person"></i>
+                </div>
+              </div>
             </div>
-            <div class="box-header-contant">Doctors Timetable</div>
-            <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor
-              incididunt ut labore et dolore magna</div>
-            <div class="read-element">
-              <div class="viewbtn">View Timetable</div>
-              <i class="bi bi-arrow-right-short"></i>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 nopadding">
+              <div class="box-contants">
+                <div class="iconbox-element"><i class="bi bi-heart-pulse"></i></div>
+                <div class="box-header-contants">Doctors Timetable</div>
+                <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et dolore magna</div>
+                <button type="button" class="btn btn-primary"><i class="bi bi-telephone"></i>(+021) 2336 278</button>
+                <div class="iconmain-box-element">
+                  <i class="be bi-heart-pulse"></i>
+                </div>
+              </div>
             </div>
-            <div class="iconmain-box-element">
-              <i class="bi bi-person"></i>
-            </div>
-          </div>
-          <div class="box-contants">
-            <div class="iconbox-element"><i class="bi bi-heart-pulse"></i></div>
-            <div class="box-header-contants">Doctors Timetable</div>
-            <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor
-              incididunt ut labore et dolore magna</div>
-            <button type="button" class="btn btn-primary"><i class="bi bi-telephone"></i>(+021) 2336 278</button>
-            <div class="iconmain-box-element">
-              <i class="be bi-heart-pulse"></i>
-            </div>
-          </div>
-          <div class="box-contantes">
-            <div class="iconbox-element"><i class="bi bi-clipboard-pulse"></i></div>
-            <div class="box-header-white">Doctors Timetable</div>
-            <div class="paragraph-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor
-              incididunt ut labore et dolore magna</div>
-            <div class="read-viewbtn-contant">
-              <div class=" read-viewbtn">View Timetable</div>
-              <i class="be bi-arrow-right-short"></i>
-            </div>
-            <div class="iconmain-box-element">
-              <i class="be bi-clipboard-pulse"></i>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 nopadding">
+              <div class="box-contantes">
+                <div class="iconbox-element"><i class="bi bi-clipboard-pulse"></i></div>
+                <div class="box-header-white">Doctors Timetable</div>
+                <div class="paragraph-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor
+                  incididunt ut labore et dolore magna</div>
+                <div class="read-viewbtn-contant">
+                  <div class=" read-viewbtn">View Timetable</div>
+                  <i class="be bi-arrow-right-short"></i>
+                </div>
+                <div class="iconmain-box-element">
+                  <i class="be bi-clipboard-pulse"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -246,401 +307,444 @@
         </div>
       </div>
     </div>
-    <div class="animation-section-background">
-      <div class="elementor-overly-background-image">
+
+    <div class="elementor-overly-background-image">
+      <div class="animation-section-background">
         <div class="container">
           <div class="elementor-overly-background-image-first-section">
             <div class="elements-header-title">Medical Services</div>
             <div class="element-big-header">Our Healthcare Service</div>
             <p class="paragraph-titles">Lorem ipsum dolor sit amet, consectetur adipiscin elit, sed do eiusmod
-              <br>tempor incididunt ut labore dolore magna aliqua
+              tempor incididunt ut labore dolore magna aliqua
             </p>
           </div>
           <div class="elementor-overly-background-image-second-section">
             <div class="main-flex-box-element">
               <div class="box-element">
-                <div class="box-title-">
-                  <div class="icon-hover-element">
-                    <img class="eyse-icon" src="./images/eyse-icons.png">
-                  </div>
-                  <div class="box-header-element">Eye Care</div>
-                  <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
-                    tempor incidiunt ut labore</p>
-                  <div class="read-element">
-                    <div class="viewbtn">Read More</div>
-                    <i class="bi bi-arrow-right-short"></i>
-                  </div>
-                </div>
-                <div class="box-titles">
-                  <div class="icon-hover-element">
-                    <img class="doctor-icon" src="./images/doc-icons.png">
-                  </div>
-                  <div class="box-header-element">Medical Checkup</div>
-                  <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
-                    tempor incidiunt ut labore</p>
-                  <div class="read-element">
-                    <div class="viewbtn">Read More</div>
-                    <i class="bi bi-arrow-right-short"></i>
-                  </div>
-                </div>
-                <div class="box-title-">
-                  <div class="icon-hover-element">
-                    <img class="tooth-icon" src="./images/totth-WXDFW9G.png">
-                  </div>
-                  <div class="box-header-element">Dental Care</div>
-                  <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
-                    tempor incidiunt ut labore</p>
-                  <div class="read-element">
-                    <div class="viewbtn">Read More</div>
-                    <i class="bi bi-arrow-right-short"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="box-element-flex">
-                <div class="box-title">
-                  <div class="icon-hover-element">
-                    <img class="cardio-icon" src="./images/cardio.png">
-                  </div>
-                  <div class="box-header-element">Cardiology</div>
-                  <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
-                    tempor incidiunt ut labore</p>
-                  <div class="read-element">
-                    <div class="viewbtn">Read More</div>
-                    <i class="bi bi-arrow-right-short"></i>
-                  </div>
-                </div>
-                <div class="boxx-title">
-                  <div class="icon-hover-element">
-                    <img class="medicin-icon" src="./images/medicine.png">
-                  </div>
-                  <div class="boxx-header-element">Laboratory Service</div>
-                  <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
-                    tempor incidiunt ut labore</p>
-                  <div class="read-element">
-                    <div class="viewbtn">Read More</div>
-                    <i class="bi bi-arrow-right-short"></i>
-                  </div>
-                </div>
-                <div class="box-title">
-                  <div class="icon-hover-element">
-                    <img class="vaccinatio-icon" src="./images/vaccine-WXDFW9G.png">
-                  </div>
-                  <div class="box-header-element">Vaccination</div>
-                  <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
-                    tempor incidiunt ut labore</p>
-                  <div class="read-element">
-                    <div class="viewbtn">Read More</div>
-                    <i class="bi bi-arrow-right-short"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="elements-overlay-next-section">
-          <div class="container">
-            <div class=" element-overlay-next-section">
-              <i class="bi bi-calendar-date"></i>
-              <div class="heder-para-element">
-                <div class="header">Open for Appointments</div>
-                <p class="parasec">Lorem ipsum dolor sit amet, consecte adipiscing elit</p>
-              </div>
-              <input class="btn btn-primary" type="button" value="Make Appointment">
-              <div class="buttn-element">
-                <div class="readbtns">Read More</div>
-                <i class="bi bi-arrow-right-short"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="rightimage-leftcontant-element pt-8">
-        <div class="right-left-contant">
-          <div class="all-displayflex-contants">
-            <div class="left-contant-section">
-              <div class="right-heading-title">How We Work</div>
-              <div class="rightb-heading-title">A Comprehensive Directory For Your Health Care</div>
-              <p class="right-para-title-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <div class="other-element-contant">
-                <i class="be bi-file-richtext"></i>
-                <div class="flex-elemnt-contant">
-                  <div class="headersec-element">Book an Appointment </div>
-                  <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore</div>
-                </div>
-              </div>
-              <div class="other-element-contant">
-                <i class="bi bi-file-text"></i>
-                <div class="flex-elemnt-contant">
-                  <div class="headersec-element">Conduct Checkup </div>
-                  <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore</div>
-                </div>
-              </div>
-              <div class="other-element-contant">
-                <img class="payment-prescrib" src="./images/prescribe-payment.jpg">
-                <div class="flex-elemnt-contant">
-                  <div class="headersec-element">Perform Treatment </div>
-                  <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore</div>
-                </div>
-              </div>
-              <div class="other-element-contant">
-                <img class="perform-treatment-icon"
-                  src="./images/depositphotos_125949378-stock-illustration-stethoscope-design-icon.jpg">
-                <div class="flex-elemnt-contant">
-                  <div class="headersec-element">Prescribe & Payment</div>
-                  <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore</div>
-                </div>
-              </div>
-            </div>
-            <div class="right-contant-element">
-              <img class="rimage-contant" src="./images/group-of-doctors-standing.jpg">
-              <div class="right-second-image">
-                <img class="rsecond-img" src="./images/team-of-doctors-having-meeting-in-medical-office-800x532.jpg">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section-element-pt9">
-      <div class="container">
-        <div class="miidle- contant-element">
-          <div class="leftsec-element">
-            <div class="left-header-element">Best Medical & Healthcare</div>
-            <div class="leftb-header-element">Trust Us To Be There To Help All & Make Things Well Again</div>
-            <div class="left-para-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
-            <button type="button" class="btn btn-outline-info">Get started</button>
-          </div>
-          <div class="-animatio-box- display-elemnt">
-            <div class="animation-box-element">
-              <div class="animation-boxx-contant">
-                <img class="iconbox-element" src="./images/stethoscope-icon-clinic-cardiology-pictogram-1592836.jpg">
-                <div class="boxxheader-element">Medical Advices & Check Ups</div>
-              </div>
-              <div class="animation-boxes">
-                <div class="animation-boxx-contants">
-                  <img class="iconbox-element" src="./images/doctor-icon.png">
-                  <div class="boxxheader-elements">Trusted Medical Treatment</div>
-                </div>
-              </div>
-            </div>
-            <div class="boxes-element">
-              <div class="animation-boxes">
-                <div class="animation-boxx-contants">
-                  <i class="be bi-heart-pulse-fill"></i>
-                  <div class="boxxheader-elements">Emergency Help Available 24/7</div>
-                </div>
-              </div>
-
-              <div class="animation-boxes">
-                <div class="boxes2-element">
-                  <i class="bi bi-clipboard2-pulse"></i>
-                  <div class="boxxheader-elements">Medical Research Professionals</div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section-bg-img10">
-      <div class="container">
-        <div class="flec-elemene">
-          <div class="dflex">
-            <div class="middle-bg-img">
-              <div class="overlaysection">
-                <div class="overly-element">
-                  <i class="bi bi-calendar4-week"></i>
-                  <div class="overly-header">Make Appointment & Take Care Of Your Healthy Life</div>
-                  <div class="overly-paraelement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore</div>
-                </div>
-              </div>
-            </div>
-            <div class="form-element">
-              <form>
                 <div class="row">
-                  <div class="col-md-6">
-                    <label for="exampleinputEmail1" class="form-label" placeholder="bkjn"> </label>
-                    <input type="email" class="form-control" id="examleinputEmail1" placeholder="Your Name">
-                    <div id="emailHelp" class="form-text"></div>
+                  <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="box-title-">
+                      <div class="icon-hover-element">
+                        <img class="eyse-icon" src="./images/eyse-icons.png">
+                      </div>
+                      <div class="box-header-element">Eye Care</div>
+                      <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
+                        tempor incidiunt ut labore</p>
+                      <div class="read-element">
+                        <div class="viewbtn">Read More</div>
+                        <i class="bi bi-arrow-right-short"></i>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <label for="exampleinputEmail1" class="form-label" placeholder="Name"></label>
-                    <input type="email" class="form-control" id="examleinputEmail1" placeholder="Your Email">
-                    <div id="emailHelp" class="form-text"></div>
+                  <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="box-titles">
+                      <div class="icon-hover-element">
+                        <img class="doctor-icon" src="./images/doc-icons.png">
+                      </div>
+                      <div class="box-header-element">Medical Checkup</div>
+                      <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
+                        tempor incidiunt ut labore</p>
+                      <div class="read-element">
+                        <div class="viewbtn">Read More</div>
+                        <i class="bi bi-arrow-right-short"></i>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <label for="exampleinputEmail1" class="form-label" placeholder="Name"></label>
-                    <input type="email" class="form-control" id="examleinputEmail1" placeholder="Your phon">
-                    <div id="emailHelp" class="form-text"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label for="exampleinputEmail1" class="form-label" placeholder="date"></label>
-                    <input type="email" class="form-control" id="examleinputEmail1" placeholder="Date">
-                    <div id="emailHelp" class="form-text"></div>
-                  </div>
-                  <div class="col-md-4">
-                    <label for="inputState" class="form-label"></label>
-                    <select id="inputState" class="form-select">
-                      <option selected>Select Services</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="col-auto">
-                    <label class="visually-hidden" for="autoSizingSelect"></label>
-                    <select class="form-select" id="autoSizingSelect">
-                      <option selected>Select doctor</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
+                  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                    <div class="box-title-">
+                      <div class="icon-hover-element">
+                        <img class="tooth-icon" src="./images/totth-WXDFW9G.png">
+                      </div>
+                      <div class="box-header-element">Dental Care</div>
+                      <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
+                        tempor incidiunt ut labore</p>
+                      <div class="read-element">
+                        <div class="viewbtn">Read More</div>
+                        <i class="bi bi-arrow-right-short"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="nextfom">
-                  <div class="lastform">Additional Details</div>
-                  <button type="button" class="btn btn-dark">Make Appointment</button>
+              </div>
+
+              <div class="box-element">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="box-title">
+                      <div class="icon-hover-element">
+                        <img class="cardio-icon" src="./images/cardio.png">
+                      </div>
+                      <div class="box-header-element">Cardiology</div>
+                      <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
+                        tempor incidiunt ut labore</p>
+                      <div class="read-element">
+                        <div class="viewbtn">Read More</div>
+                        <i class="bi bi-arrow-right-short"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                    <div class="boxx-title">
+                      <div class="icon-hover-element">
+                        <img class="medicin-icon" src="./images/medicine.png">
+                      </div>
+                      <div class="boxx-header-element">Laboratory Service</div>
+                      <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
+                        tempor incidiunt ut labore</p>
+                      <div class="read-element">
+                        <div class="viewbtn">Read More</div>
+                        <i class="bi bi-arrow-right-short"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                    <div class="box-title">
+                      <div class="icon-hover-element">
+                        <img class="vaccinatio-icon" src="./images/vaccine-WXDFW9G.png">
+                      </div>
+                      <div class="box-header-element">Vaccination</div>
+                      <p class="box-element-para">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod
+                        tempor incidiunt ut labore</p>
+                      <div class="read-element">
+                        <div class="viewbtn">Read More</div>
+                        <i class="bi bi-arrow-right-short"></i>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </form>
+
+
+              </div>
+
             </div>
+
 
           </div>
         </div>
-        <div class="crausal-element">
-          <div class="cheader-element">Testimonials</div>
-          <div class="cheaderbig-element">
-            <img class="colon-element" src="./images/doubl-quots.png">
-            <div class="fheaderbig-element">What Patients Say About Us</div>
-          </div>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="paragraphsection-element">Vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                  praesentium<br> voluptatum delenti atque corrupt quos dolores et quas molestias excepturi sint
-                  eiusmood<br>
-                  rempor incididunt ut labor magna aliqua</div>
-                <img src="./images/woman-image.webp" class="crausal-images" alt="images">
-                <div class="shotheadr-element">Florrie Braun</div>
-                <div class="co-Founder HCM">co-Founder HCM</div>
-              </div>
-              <div class="carousel-item">
-                <div class="paragraphsection-element">Vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                  praesentium<br> voluptatum delenti atque corrupt quos dolores et quas molestias excepturi sint
-                  eiusmood<br>
-                  rempor incididunt ut labor magna aliqua</div>
-                <img src="./images/UUFGSJH.jpg" class="crausal-images" alt="images">
-                <div class="shotheadr-element">Joy Griffiths</div>
-                <div class="co-Founder HCM">CEO,A startup</div>
-              </div>
-              <div class="carousel-item">
-                <div class="paragraphsection-element">Vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                  praesentium<br> voluptatum delenti atque corrupt quos dolores et quas molestias excepturi sint
-                  eiusmood<br>
-                  rempor incididunt ut labor magna aliqua</div>
-                <img src="./images/MKLVKTE.jpg" class="crausal-images" alt="images">
-                <div class="shotheadr-element">Danial Thompson</div>
-                <div class="co-Founder HCM">enter preneur</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-
-    </div>
-    <div class="last-contant-element">
-      <div class="container">
-        <div class="middl-element">
-          <div class=" last-hed-contant">Our Blog</div>
-          <div class="last-header-contant">Lates News & Articles</div>
-          <div class="last-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            enim tempor incididunt ut labore et dolore magna aliqua
-          </div>
-        </div>
-        <div class="main-disply-contant-element">
-          <div class="section-contant1">
-            <img class="img-sec-contant" src="./images/medical-council.jpg">
-            <div class="sec-had-contant1">Medical</div>
-            <div class="sec-hedr-contant">Best Medical Network Directory For Physicians & Clients</div>
-            <p class="sec-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna...</p>
-            <div class="btn-contant">
-              <div class="read-btn">Read More</div>
-              <i class="bi bi-arrow-right-short"></i>
-            </div>
-          </div>
-          <div class="section-contant2">
-            <img class="img-sec-contant" src="./images/disability-and-healthcare-1536x1152.jpg">
-            <div class="sec-had-contant1">Insight</div>
-            <div class="sec-hedr-contant">Why Primary Health Care Is Very Important in Our life?</div>
-            <p class="sec-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna...</p>
-            <div class="btn-contant">
-              <div class="read-btn">Read More</div>
-              <i class="bi bi-arrow-right-short"></i>
-            </div>
-          </div>
-          <div class="section-contant3">
-            <img class="img-sec-contant"
-              src="./images/psychologist-and-patient-talking-in-clinic-mental-health-concept-1536x1025.jpg">
-            <div class="sec-had-contant1">Health</div>
-            <div class="sec-hedr-contant">6 Tips to Protect Your Mental Health When You’re Sick</div>
-            <p class="sec-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna...</p>
-            <div class="btn-contant">
-              <div class="read-btn">Read More</div>
-              <i class="bi bi-arrow-right-short"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="last-sectio-element">
-      <div class="last-elementor-background-overly">
+      <div class="elements-overlay-next-section">
         <div class="container">
-          <div class="last-middle-contant">
-            <i class="bi bi-envelope-open"></i>
-            <div class="header-para-contant">
-              <p class="fheader-contant">Subscribe To Our Newsletter</p>
-              <p class="fpara-contant">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor
-                incidiunt ut labore</p>
+          <div class=" element-overlay-next-section">
+            <i class="bi bi-calendar-date"></i>
+            <div class="heder-para-element">
+              <div class="header">Open for Appointments</div>
+              <p class="parasec">Lorem ipsum dolor sit amet, consecte adipiscing elit</p>
             </div>
-            <input type="search" placholder="Your Email Address" required> </input>
-            <button type="button" class="btn btn-outline-success">Subscribe</button>
+            <input class="btn btn-primary" type="button" value="Make Appointment">
+            <div class="buttn-element">
+              <div class="readbtns">Read More</div>
+              <i class="bi bi-arrow-right-short"></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class=" footr-element-background-overly">
-      <div class="container">
-        <div class="footer-middle-contant -colum">
-          <div class="list-display-flex-contant">
-            <div class="flex-elemet-contant">
-          <div class="footer-icon with-title-contant">
-            <img class="foter-medical-life" src="./images/footer-medicalife-1536x347.png">
-            <div class="elementor-widget-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco</div>
-            <div class="elementor-icon">
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-twitter"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-linkedin"></i>
+  </div>
+
+  <div class="container">
+    <div class="rightimage-leftcontant-element pt-8">
+      <div class="right-left-contant">
+        <div class="all-displayflex-contants">
+          <div class="left-contant-section">
+            <div class="right-heading-title">How We Work</div>
+            <div class="rightb-heading-title">A Comprehensive Directory For Your Health Care</div>
+            <p class="right-para-title-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="other-element-contant">
+              <i class="be bi-file-richtext"></i>
+              <div class="flex-elemnt-contant">
+                <div class="headersec-element">Book an Appointment </div>
+                <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore</div>
+              </div>
+            </div>
+            <div class="other-element-contant">
+              <i class="bi bi-file-text"></i>
+              <div class="flex-elemnt-contant">
+                <div class="headersec-element">Conduct Checkup </div>
+                <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore</div>
+              </div>
+            </div>
+            <div class="other-element-contant">
+              <img class="payment-prescrib" src="./images/prescribe-payment.jpg">
+              <div class="flex-elemnt-contant">
+                <div class="headersec-element">Perform Treatment </div>
+                <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore</div>
+              </div>
+            </div>
+            <div class="other-element-contant">
+              <img class="perform-treatment-icon"
+                src="./images/depositphotos_125949378-stock-illustration-stethoscope-design-icon.jpg">
+              <div class="flex-elemnt-contant">
+                <div class="headersec-element">Prescribe & Payment</div>
+                <div class="parasec-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore</div>
+              </div>
             </div>
           </div>
-          
+          <div class="right-contant-element">
+            <img class="rimage-contant" src="./images/group-of-doctors-standing.jpg">
+            <div class="right-second-image">
+              <img class="rsecond-img" src="./images/team-of-doctors-having-meeting-in-medical-office-800x532.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-element-pt9">
+    <div class="container">
+      <div class="miidle- contant-element">
+        <div class="row">
+          <div class="col-12  col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div class="leftsec-element">
+              <div class="left-header-element">Best Medical & Healthcare</div>
+              <div class="leftb-header-element">Trust Us To Be There To Help All & Make Things Well Again</div>
+              <div class="left-para-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+              <button type="button" class="btn btn-outline-info">Get started</button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div class="-animatio-box- display-elemnt">
+              <div class="animation-box-element">
+                <div class="animation-boxx-contant">
+                  <img class="iconbox-element" src="./images/stethoscope-icon-clinic-cardiology-pictogram-1592836.jpg">
+                  <div class="boxxheader-element">Medical Advices & Check Ups</div>
+                </div>
+                <div class="animation-boxes">
+                  <div class="animation-boxx-contants">
+                    <img class="iconbox-element" src="./images/doctor-icon.png">
+                    <div class="boxxheader-elements">Trusted Medical Treatment</div>
+                  </div>
+                </div>
+              </div>
+              <div class="boxes-element">
+                <div class="animation-boxes">
+                  <div class="animation-boxx-contants">
+                    <i class="be bi-heart-pulse-fill"></i>
+                    <div class="boxxheader-elements">Emergency Help Available 24/7</div>
+                  </div>
+                </div>
+
+                <div class="animation-boxes">
+                  <div class="boxes2-element">
+                    <i class="bi bi-clipboard2-pulse"></i>
+                    <div class="boxxheader-elements">Medical Research Professionals</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="section-bg-img10">
+    <div class="container">
+      <div class="flec-elemene">
+        <div class="dflex">
+          <div class="row">
+            <div class="col-12  col-sm-12 col-md-12 col-lg-12 col-xl-6">
+              <div class="middle-bg-img">
+                <div class="overlaysection">
+                  <div class="overly-element">
+                    <i class="bi bi-calendar4-week"></i>
+                    <div class="overly-header">Make Appointment & Take Care Of Your Healthy Life</div>
+                    <div class="overly-paraelement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+              <div class="form-element">
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="exampleinputEmail1" class="form-label" placeholder="bkjn"> </label>
+                      <input type="email" class="form-control" id="examleinputEmail1" placeholder="Your Name">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="exampleinputEmail1" class="form-label" placeholder="Name"></label>
+                      <input type="email" class="form-control" id="examleinputEmail1" placeholder="Your Email">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="exampleinputEmail1" class="form-label" placeholder="Name"></label>
+                      <input type="email" class="form-control" id="examleinputEmail1" placeholder="Your phon">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="exampleinputEmail1" class="form-label" placeholder="date"></label>
+                      <input type="email" class="form-control" id="examleinputEmail1" placeholder="Date">
+                      <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputState" class="form-label"></label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Select Services</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputState" class="form-label"></label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Select Services</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="nextfom">
+                    <div class="lastform">Additional Details</div>
+                    <button type="button" class="btn btn-dark">Make Appointment</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="crausal-element">
+        <div class="cheader-element">Testimonials</div>
+        <div class="cheaderbig-element">
+          <img class="colon-element" src="./images/doubl-quots.png">
+          <div class="fheaderbig-element">What Patients Say About Us</div>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="paragraphsection-element">Vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis
+                praesentium<br> voluptatum delenti atque corrupt quos dolores et quas molestias excepturi sint
+                eiusmood<br>
+                rempor incididunt ut labor magna aliqua</div>
+              <img src="./images/woman-image.webp" class="crausal-images" alt="images">
+              <div class="shotheadr-element">Florrie Braun</div>
+              <div class="co-Founder HCM">co-Founder HCM</div>
+            </div>
+            <div class="carousel-item">
+              <div class="paragraphsection-element">Vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis
+                praesentium<br> voluptatum delenti atque corrupt quos dolores et quas molestias excepturi sint
+                eiusmood<br>
+                rempor incididunt ut labor magna aliqua</div>
+              <img src="./images/UUFGSJH.jpg" class="crausal-images" alt="images">
+              <div class="shotheadr-element">Joy Griffiths</div>
+              <div class="co-Founder HCM">CEO,A startup</div>
+            </div>
+            <div class="carousel-item">
+              <div class="paragraphsection-element">Vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis
+                praesentium<br> voluptatum delenti atque corrupt quos dolores et quas molestias excepturi sint
+                eiusmood<br>
+                rempor incididunt ut labor magna aliqua</div>
+              <img src="./images/MKLVKTE.jpg" class="crausal-images" alt="images">
+              <div class="shotheadr-element">Danial Thompson</div>
+              <div class="co-Founder HCM">enter preneur</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="last-contant-element">
+    <div class="container">
+      <div class="middl-element">
+        <div class=" last-hed-contant">Our Blog</div>
+        <div class="last-header-contant">Lates News & Articles</div>
+        <div class="last-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          enim tempor incididunt ut labore et dolore magna aliqua
+        </div>
+      </div>
+      <div class="main-disply-contant-element">
+        <div class="section-contant1">
+          <img class="img-sec-contant" src="./images/medical-council.jpg">
+          <div class="sec-had-contant1">Medical</div>
+          <div class="sec-hedr-contant">Best Medical Network Directory For Physicians & Clients</div>
+          <p class="sec-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna...</p>
+          <div class="btn-contant">
+            <div class="read-btn">Read More</div>
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+        </div>
+        <div class="section-contant2">
+          <img class="img-sec-contant" src="./images/disability-and-healthcare-1536x1152.jpg">
+          <div class="sec-had-contant1">Insight</div>
+          <div class="sec-hedr-contant">Why Primary Health Care Is Very Important in Our life?</div>
+          <p class="sec-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna...</p>
+          <div class="btn-contant">
+            <div class="read-btn">Read More</div>
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+        </div>
+        <div class="section-contant3">
+          <img class="img-sec-contant"
+            src="./images/psychologist-and-patient-talking-in-clinic-mental-health-concept-1536x1025.jpg">
+          <div class="sec-had-contant1">Health</div>
+          <div class="sec-hedr-contant">6 Tips to Protect Your Mental Health When You’re Sick</div>
+          <p class="sec-para-contant">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna...</p>
+          <div class="btn-contant">
+            <div class="read-btn">Read More</div>
+            <i class="bi bi-arrow-right-short"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="last-sectio-element">
+    <div class="last-elementor-background-overly">
+      <div class="container">
+        <div class="last-middle-contant">
+          <i class="bi bi-envelope-open"></i>
+          <div class="header-para-contant">
+            <p class="fheader-contant">Subscribe To Our Newsletter</p>
+            <p class="fpara-contant">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor
+              incidiunt ut labore</p>
+          </div>
+          <div class="subscribeDiv">
+            <input type="search" placholder="Your Email Address" required />
+            <div class="subscribBtn">
+              <button type="button" class="btn btn-outline-success">Subscribe</button>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=" footr-element-background-overly">
+    <div class="container">
+      <div class="footer-middle-contant -colum">
+        <div class="list-display-flex-contant">
+          <div class="flex-elemet-contant">
+            <div class="footer-icon with-title-contant">
+              <img class="foter-medical-life" src="./images/footer-medicalife-1536x347.png">
+              <div class="elementor-widget-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco</div>
+              <div class="elementor-icon">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+              </div>
+            </div>
+
             <div class="listtitle">
               <div class="detail-contant">Contact Details</div>
               <div class="bottom-bordrs"></div>
@@ -664,9 +768,9 @@
                 </ul>
               </div>
             </div>
-            </div>
+          </div>
 
-             <div class="d-flex-element-contant">
+          <div class="d-flex-element-contant">
             <div class="list-title">
               <div class="detail-contant">Other Page</div>
               <div class="borders"></div>
@@ -690,31 +794,31 @@
                 </ul>
               </div>
             </div>
-          
-          <div class="footer-midd-contantsec3">
-            <div class="detail-contant">Make Appointment</div>
-            <div class="border2"></div>
-            <DIV class="phonicon-contant"><i class="bi bi-telephone-fill"></i>
-              <h4 class="boldtext">Call Us</h4><br>
-              <aside>(+021) 2336 278</aside>
-            </DIV>
-            <div class="elementor-widget-paragraph">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do
-              eiusmod
+
+            <div class="footer-midd-contantsec3">
+              <div class="detail-contant">Make Appointment</div>
+              <div class="border2"></div>
+              <DIV class="phonicon-contant"><i class="bi bi-telephone-fill"></i>
+                <h4 class="boldtext">Call Us</h4><br>
+                <aside>(+021) 2336 278</aside>
+              </DIV>
+              <div class="elementor-widget-paragraph">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do
+                eiusmod
+              </div>
             </div>
           </div>
-             </div>
-
-          </div>
 
         </div>
-        <div class="border-contant"></div>
-        <div class="lastm-contant">
-          <div class="lastsection-element">Medical & Healthcare Template Kit by Baliniz</div>
-          <div class="lastsec-contant">Copyright © 2021 All rights reserved.</div>
-        </div>
+
+      </div>
+      <div class="border-contant"></div>
+      <div class="lastm-contant">
+        <div class="lastsection-element">Medical & Healthcare Template Kit by Baliniz</div>
+        <div class="lastsec-contant">Copyright © 2021 All rights reserved.</div>
       </div>
     </div>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
